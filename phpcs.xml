@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<ruleset name="WooCommerce Advanced Shipping Rules">
+    <description>PHPCS configuration for WordPress standards.</description>
+    <file>./woocommerce-advanced-shipping-rules.php</file>
+    <file>./includes</file>
+    <file>./admin</file>
+    <rule ref="WordPress-Core" />
+    <rule ref="WordPress-Docs" />
+    <rule ref="WordPress-Extra" />
+    <config name="testVersion" value="7.4-" />
+</ruleset>
